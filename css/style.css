@@ -3195,9 +3195,9 @@ ul.actions {
 		box-sizing: border-box;
 	}
 
-	*, *:before, *:after {
+	/* *, *:before, *:after {
 		box-sizing: inherit;
-	}
+	} */
 
 	.body1 {
 		background: #2e3842;
@@ -3338,6 +3338,7 @@ ul.actions {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
+    margin: 0 0 0 0;
 }
 
     .spotlight1 .image1 {
