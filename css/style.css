@@ -2282,12 +2282,12 @@ article:last-child {
 
 header.style1 {
     text-align: center;
-    padding: 3em 0 3em 0;
+    padding: 1em 0 2em 0;
 }
 
     header.style1 h2 {
         font-weight: 700;
-        font-size: 2em;
+        font-size: 27px;
         letter-spacing: 0.075em;
         line-height: 1.5em;
     }
@@ -2296,7 +2296,7 @@ header.style1 {
         color: #b1b4b9;
         display: block;
         margin: 1.15em 0 0 0;
-        font-size: 1.3em;
+        font-size: 18px;
         letter-spacing: 0.075em;
         line-height: 1.5em;
     }
@@ -2684,7 +2684,7 @@ ul.actions {
 /* Wrapper */
 
 .wrapper {
-    position: relative;
+    /* position: relative; */
     padding: 6em 0 9em 0;
 }
 
@@ -2827,7 +2827,7 @@ ul.actions {
     background: #282b34 url("../image/fondo-azul1.jpg");
     color: #eee;
     color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 6em;
+    padding-bottom: 4em;
 
     
 }
@@ -2899,9 +2899,14 @@ ul.actions {
     }
 
     #footer header.style1 {
-        padding-bottom: 6em;
-        margin-bottom: 6em;
+        /* padding-bottom: 6em;
+        margin-bottom: 6em; */
+        
         border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+    }
+
+    .contacto {
+        padding: 0;
     }
 
         #footer header.style1 h2 {
@@ -2952,7 +2957,7 @@ ul.actions {
     /* Wrapper */
 
         .wrapper {
-            padding: 4em 0 7em 0;
+            padding: 1em 0 7em 0;
         }
 
     
@@ -3457,6 +3462,11 @@ ul.actions {
             padding: 3em 2em 1em 2em ;
         }
 
+        .spotlight1 .image1 img {
+            border: 10px solid rgb(255, 255, 255);
+            box-sizing: border-box;
+        }
+
     }
 
 
@@ -3530,10 +3540,21 @@ ul.actions {
     81%,86% {transform: var(--_p) rotate3d(0, 1, 0, 90deg)}
     97%,100%{transform: var(--_p) rotate3d(0, 0, 0, 0deg)}
   }
+
   
+
+
+
+.section_cubo {
+    
+    box-sizing: border-box;
+    min-height: 30vh;
+}
+
+
 .cubo_piedras {
-    margin: 3em 6em 3em 6em;
-    min-height: 100vh;
+    margin: 1em 6em 0 6em;
+    min-width: auto;
     display: grid;
     place-content: center;
 }
